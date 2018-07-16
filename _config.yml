@@ -1,0 +1,34 @@
+# Site settings
+name: Benjamin Wallberg
+description: "Playback Engineer | Web - Chromecast - SmartTV"
+url: "https://bwallberg.com"
+
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  bwallberg
+twitter_username: bwallberg
+linkedin_username: bwallberg
+# instagram_username:  your_instagram_username_goes_here
+#blog_url: "/blog"
+email: me@bwallberg.com
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars3.githubusercontent.com/u/4589630"
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: no
+# favicon_img_path: "imgs/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
