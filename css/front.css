@@ -75,7 +75,7 @@ a {
 .description {
     display: none;
 }
-
+/*
 @media (max-width: 450px) {
 ul {
     text-align: center;
@@ -122,4 +122,4 @@ a:hover {
 .content {
     padding-top: 60px;
 }
-}
+}*/
