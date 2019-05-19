@@ -1,6 +1,6 @@
 # Site settings
 name: Benjamin Wallberg
-description: "Playback Engineer | Web - Chromecast - SmartTV"
+description: "Frontend Engineer with video expertise"
 url: "https://bwallberg.com"
 
 
@@ -20,10 +20,8 @@ avatar: yes
 # automatically whenever you change your GitHub profile picture
 avatar_img_path: "https://avatars3.githubusercontent.com/u/4589630"
 
-front_img: yes
-front_img_path: "imgs/background.jpg"
-#front_img_path: "https://external.url/image.jpg"
-
+front_img: no
+#front_img_path: "imgs/background.jpg"
 
 favicon_img: no
 # favicon_img_path: "imgs/favicon.ico"
