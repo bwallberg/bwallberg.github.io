@@ -1,6 +1,8 @@
+@import "./nord.css";
+
 body {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--nord0);
     position: absolute; 
     top: 0;
     bottom: 0;
@@ -26,11 +28,11 @@ body {
 #avatar {
     height: 180px;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 5px solid var(--nord4);
     margin-bottom: 40px;
 }
 h1 {
-    color: white;
+    color: var(--nord4);
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 4em;
@@ -38,7 +40,7 @@ h1 {
     margin: -10px 0;
 }
 h3 {
-    color: white;
+    color: var(--nord4);
     padding-bottom: 20px;
     font-weight: thin;
 }
@@ -53,8 +55,8 @@ ul {
 }
 li {
     border-radius: 100%;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid var(--nord4);
+    color: var(--nord4);
     margin: 8px;
     display: inline-block;
     list-style: none;
@@ -62,7 +64,7 @@ li {
     height: 65px;
 }
 li:hover {
-    color: white;
+    color: var(--nord4);
     text-decoration: none;
     -webkit-transition: 500ms;
     -moz-transition: 500ms;
@@ -71,7 +73,7 @@ li:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 a {
-    color: white;
+    color: var(--nord4);
     padding: 15px;
     text-decoration: none;
 }
@@ -86,7 +88,7 @@ ul {
 li {
     border-radius: 0%;
     border: none;
-    color: white;
+    color: var(--nord4);
     margin: 8px;
     display: block;
     list-style: none;
@@ -101,9 +103,9 @@ li:hover {
 }
 a {
     text-align: justify;
-    border: 2px solid white;
+    border: 2px solid var(--nord4);
     border-radius: 5px;
-    color: white;
+    color: var(--nord4);
     padding: 15px;
     padding-left: 30px;
     width: 70%;
@@ -113,12 +115,12 @@ a:hover {
     -moz-transition: 500ms;
     transition: 500ms;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: var(--nord4);
     text-decoration: none;
 }
 .description {
     display: inline-block;
-    color: white;
+    color: var(--nord4);
     font-family: Arial;
     margin-left: 40px;
 }
