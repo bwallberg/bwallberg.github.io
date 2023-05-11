@@ -41,6 +41,10 @@ h1 {
 }
 h3 {
     color: var(--nord4);
+    font-weight: thin;
+}
+p {
+    color: var(--nord4);
     padding-bottom: 20px;
     font-weight: thin;
 }
